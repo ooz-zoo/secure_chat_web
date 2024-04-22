@@ -1,4 +1,5 @@
 # Secure Chat Web Application
+# Deployment failed so only works on localhost for now
 
 # Chat Screens
 ![image](https://github.com/ooz-zoo/secure_chat_web/assets/111248086/9ea78b42-de2c-439f-98b6-c18b4d6d3dd1)
