@@ -1,0 +1,324 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  padding-left: 30px; /* Ensure space for the icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-container .username-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%); 
+}
+
+.input-container .email-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.input-container .lock-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+
+.button-container {
+  margin-top: 15px;
+}
+
+.button-container input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+}
+
+.link {
+  margin-top: 10px;
+}
+
+.link a {
+  color: blue;
+}
+
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.forgot-password-link {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove default underline */
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* DASHBOARD STYLING */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFE4B5; /* Peach background color */
+  padding: 20px;
+  background-image: url(C:\Users\admin\Desktop\SecureChat\Secure_Chat_Web_App\frontend\secure_web_chat\src\chat-background.jpg);
+  min-height: 100%;
+  height: 100vh;
+}
+
+.rooms-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.room-container {
+  border: 10px solid #000000;
+  border-radius: 5px;
+  width: 300px; /* Fixed width for the room container */
+  margin: 0 20px 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  background-color: #000000; /* White room container */
+  color: #FFFFFF; /* Black text */
+}
+
+.room-container:hover {
+  transform: scale(1.1); /* Zoom in effect on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 20px;
+}
+
+.room-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.room-details {
+  margin-top: 3px;
+  
+}
+
+.join-button {
+  background-color: #5865F2; /* Discord blue */
+  color: #FFFFFF; /* White */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.join-button:hover {
+  background-color: #7289DA; /* Lighter blue on hover */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .modal-content h2 {
+  margin-bottom: 20px;
+ }
+ 
+ .modal-content input {
+  width: 92%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+ }
+ 
+ .modal-content button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7289DA;
+  color: #fff;
+  cursor: pointer;
+ }
+ 
+ .modal-content button:hover {
+  background-color: #4a55d1;
+ }
+ /*DASHBOARD */
+
+.chat-container {
+  max-width: 900px;
+  margin-left: 500px;
+  margin-top: 70px;
+  padding: 20px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(C:\Users\admin\Desktop\SecureChat\Secure_Chat_Web_App\frontend\secure_web_chat\src\chat-background.jpg);
+}
+
+.chat-title {
+  text-align: center;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+ }
+ 
+ .header-content {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+ }
+ 
+ .leave-icon {
+  cursor: pointer;
+  margin-right: 10px; /* Adds some space between the icon and the text */
+ }
+ 
+ 
+.message-container {
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.sent {
+  align-self: flex-end;
+  text-align: right;
+  background-color: #DCF8C6;
+}
+
+.received {
+  align-self: flex-start;
+  text-align: left;
+  background-color: #E5E5EA; /* Light gray background for received messages */
+}
+
+.sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-content {
+  margin-left: 5px;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 20px;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  padding: 8px 20px;
+  background-color: #5865F2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.send-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
