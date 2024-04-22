@@ -1,11 +1,14 @@
 # Secure Chat Web Application
 
-![image](https://github.com/ooz-zoo/Secure_Chat_Web_App/assets/111248086/d0aaca50-35b7-4bff-bc13-da37275fc199)
+# Chat Screens
+![image](https://github.com/ooz-zoo/secure_chat_web/assets/111248086/9ea78b42-de2c-439f-98b6-c18b4d6d3dd1)
 
-![image](https://github.com/ooz-zoo/Secure_Chat_Web_App/assets/111248086/615682d3-dc91-4931-890f-65763f6abce9)
+![image](https://github.com/ooz-zoo/secure_chat_web/assets/111248086/3d3ca5a6-3c8c-4d17-8d9e-c5f9b96dd177)
 
-![image](https://github.com/ooz-zoo/Secure_Chat_Web_App/assets/111248086/df7b9c16-4db4-4128-b853-e3a4d5d77c05)
+![image](https://github.com/ooz-zoo/secure_chat_web/assets/111248086/37a514f0-3d63-48d0-9066-72d6bba25cb7)
 
-![image](https://github.com/ooz-zoo/Secure_Chat_Web_App/assets/111248086/98c08db6-82f7-42d8-a649-64f4ad960aee)
+![image](https://github.com/ooz-zoo/secure_chat_web/assets/111248086/e34b4a1a-20a0-4172-a62d-8e362f0d9d57)
 
-![image](https://github.com/ooz-zoo/Secure_Chat_Web_App/assets/111248086/a67543d7-1f4d-4cf0-b85a-89c192203de3)
+![image](https://github.com/ooz-zoo/secure_chat_web/assets/111248086/8d44d351-8c90-48e6-9f42-7dbef57e5a13)
+
+
